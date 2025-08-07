@@ -16,9 +16,10 @@ deploy:
 deploy-force:
 	mkdocs gh-deploy --force
 
-# 문서 검사 (lint, spellcheck 등 필요한 도구 있으면 추가 가능)
+# 문서 검사 (lint 설치 명령: "npm install -g markdownlint-cli", "npm install -g cspell")
 lint:
-	echo "Linting not configured yet."
+	markdownlint docs/**/*.md
+	cspell "docs/**/*.md"
 
 # 도움말 출력
 help:
