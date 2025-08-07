@@ -1,0 +1,26 @@
+# Python 기본
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.venv
+venv/
+env/
+
+# MkDocs 빌드 결과 (정적 사이트)
+site/
+
+# 운영체제별 임시 파일
+.DS_Store
+Thumbs.db
+
+# 에디터별 설정 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 기타 임시 파일
+*.log
