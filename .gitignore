@@ -17,7 +17,6 @@ site/
 Thumbs.db
 
 # 에디터별 설정 파일
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
