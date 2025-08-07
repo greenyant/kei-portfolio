@@ -6,8 +6,8 @@ site_author: greenyant
 theme:
   name: material
   language: ko
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/logo.jpg
+  favicon: assets/logo.jpg
 
 nav:
   - Home: index.md
